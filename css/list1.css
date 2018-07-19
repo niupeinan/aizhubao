@@ -1,0 +1,404 @@
+/*
+* @Author: 牛培楠
+* @Date:   2018-07-15 12:38:08
+* @Last Modified by:   牛培楠
+* @Last Modified time: 2018-07-17 23:56:27
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+body{
+	margin: 0;
+}
+.audio video{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -99;
+}
+.audio{
+	width: 100%;
+	height: 523.16px;
+	position:relative;
+	top: 0;
+	left: 0;
+}
+.audio .header{
+	width: 100%;
+	height: 117px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255,0);
+}
+.audio .header .nav{
+	width: 1200px;
+	height: 117px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.audio .header .nav .left{
+	width: 300px;
+	height: 48px;
+	float: left;
+	margin-top: 30.45px;
+}
+.audio .header .nav .right{
+	width:900px;
+	height: 44px;
+	float: left;
+	margin-top: 18.5px;
+}
+.audio .header .nav .right .con{
+	width: 496px;
+	height: 44px;
+	float: right;
+}
+.audio .header .nav .right .con a{
+	width: 116px;
+	height: 44px;
+	line-height: 44px;
+	display: block;
+	float: right;
+	text-align: center;
+}
+.audio .header .nav .right .con a span{
+	font-size: 16px;
+	color: #141214;
+}
+.audio .header .nav .right .con a:nth-of-type(3) span{
+	color: #A50C00;
+	border-bottom: 2px solid #A50C00;
+	padding-bottom: 10px; 
+}
+
+.audio .middle{
+	width: 100%;
+	height: 152.72px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 117px;
+}
+.audio .middle .kawa{
+	width: 569px;
+	height: 59px;
+	margin: 0 auto;
+}
+.audio .shou{
+	width: 100%;
+	height: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 269.72px;
+}
+.audio .shou .con{
+	width: 489px;
+	height: 25px;
+}
+.audio .kan{
+	width: 100%;
+	height: 235px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 344.72px;
+}
+.audio .kan .con{
+	width: 180px;
+	height: 47px;
+	margin: 0 auto;
+	border: 1px solid #A50C00;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.audio .kan .con .smallbox{
+	width: 136px;
+	height: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+.audio .kan .con .smallbox span{
+ 	width: 111px;
+	height: 25px;
+	font-size: 14px;
+	color: #A50C00;
+	margin-left: 5px;
+
+}
+.longphone{
+	width: 100%;
+	height: 600px;
+	margin-top: 60px;
+	z-index: 9999;
+	background-color: #fff;
+}
+.longphoto .con{
+	width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+}
+.jiezhi{
+	width: 100%;
+	height: 486.69px;
+	margin-top: 30px;
+}
+.jiezhi .con{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.jiezhi .con .left{
+	width: 485px;
+	height: 485px;
+}
+.jiezhi .con .right{
+	width: 684.98px;
+	height: 486.69px;
+}
+.xianglian{
+	width: 100%;
+	height: 486px;
+	margin-top: 30px;
+}
+.xianglian .con{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.hong{
+	width: 100%;
+	height: 486.69px;
+	margin-top: 30px;
+}
+.hong .con{
+	width: 1200px;
+	height: 486.69px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.hong .con .left{
+	width: 684.98px;
+	height: 486.69px;
+}
+.hong .con .right{
+	width: 485.98px;
+	height: 486px;
+}
+.jieshao{
+	width: 100%;
+	height: 266px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.jieshao .con{
+	width: 1200px;
+	height: 146px;
+}
+.jieshao .con .son1{
+	width: 483px;
+	height: 100%;
+	float: left;
+}
+.jieshao .con .son1 .son1-con{
+	width: 144px;
+	height: 24px;
+	margin: 0 auto;
+	margin-top: 8.97px;
+}
+.jieshao .con .son1 .son1-con span{
+	text-align: center;
+	font-size: 24px;
+	color: #333333;
+}
+.jieshao .con .son1 .box{
+	width: 128px;
+	height: 52px;
+	border: 2px solid #BF0303;
+	margin: 19.5px auto;
+	display: flex;
+	justify-content: center;
+}
+.jieshao .con .son1 .box .smallbox{
+	width: 64px;
+	height: 28px;
+}
+.jieshao .con .son1 .box .smallbox span{
+	font-size: 16px;
+	color: #BF0303;
+	line-height: 52px;
+}
+.jieshao .con .son2{
+	width: 341.48px;
+	height: 100%;
+	float: left;
+	margin-left: 34px;
+}
+.jieshao .con .son2 .son2-con{
+	width: 341.48px;
+	height: 42px;
+	
+}
+.jieshao .con .son2 .son2-con span{
+	font-size: 14px;
+	color: #666666;
+	line-height: 42px;
+}
+.jieshao .con .son3{
+	width: 341.48px;
+	height: 100%;
+	float: left;
+}
+.jieshao .con .son3 .son3-con{
+	width: 341.48px;
+	height: 42px;
+	
+}
+.jieshao .con .son3 .son3-con span{
+	font-size: 14px;
+	color: #666666;
+	line-height: 42px;
+}
+.footer{
+	width: 100%;
+	height: 380px;
+	background-color: #333333;
+}
+.footer .con{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.footer .con .top{
+	width: 1200px;
+	height: 311.38px;
+	display: flex;
+	align-items: center;
+}
+.footer .con .top .top-son{
+	width: 1200px;
+	height: 207.94px;
+}
+.footer .con .top .top-son .son1{
+	width: 483px;
+	height: 100%;
+	float: left;
+}
+.footer .con .top .top-son .son1 .lianxi{
+	width: 100%;
+	height: 27px;
+}
+.footer .con .top .top-son .son1 .lianxi span{
+	font-size: 18px;
+	color: #fff;
+}
+.footer .con .top .top-son .son1 .xinxi{
+	width: 100%;
+	height:137px;
+	margin-top: 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.footer .con .top .top-son .son1 .xinxi .xi{
+	width: 100%;
+	height: 21px;
+}
+.footer .con .top .top-son .son1 .xinxi .xi span{
+	font-size: 14px;
+	color: #fff;
+}
+.footer .con .top .top-son .son2{
+	width: 400px;
+	height: 100%;
+	float: left;
+}
+.footer .con .top .top-son .son2 .dao{
+	width: 100%;
+	height: 27px;
+}
+.footer .con .top .top-son .son2 .dao span{
+	font-size: 18px;
+	color: #fff;
+}
+.footer .con .top .top-son .son2 .wo{
+	width: 100%;
+	height:80px;
+	margin-top: 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.footer .con .top .top-son .son2 .wo .men{
+	width: 100%;
+	height: 21px;
+}
+.footer .con .top .top-son .son2 .wo .men span{
+	font-size: 14px;
+	color: #fff;
+}
+.footer .con .top .top-son .son3{
+	width: 152px;
+	height: 100%;
+	float: left;
+}
+.footer .con .top .top-son .son3 .ma{
+	width: 152px;
+	height: 152px;
+}
+.footer .con .bottom{
+	width: 1200px;
+	height: 69.62px;
+}
+.footer .con .bottom .weizhi{
+	width: 1200px;
+	height: 20px;
+	margin-top: 5px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.footer .con .bottom .weizhi span{
+	font-size: 14px;
+	color: #999999;
+}
+.footer .con .bottom .zhi{
+	width: 1200px;
+	height: 20px;
+	margin-top: 10px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.footer .con .bottom .zhi span{
+	font-size: 14px;
+	color: #999999;
+}

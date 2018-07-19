@@ -1,0 +1,315 @@
+/*
+* @Author: 牛培楠
+* @Date:   2018-07-18 15:07:55
+* @Last Modified by:   牛培楠
+* @Last Modified time: 2018-07-18 23:39:03
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+
+.longphoto{
+	width: 100%;
+	height: 523.16px;
+	background: url('../img/ze1.jpg');
+	background-size: 1343px 523.16px;
+	position:relative;
+	left: 0;
+	top: 0;
+}
+.longphoto .header{
+	width: 100%;
+	height: 117px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255,0);
+	z-index: 100;
+}
+.longphoto .header .nav{
+	width: 1200px;
+	height: 117px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.longphoto .header .nav .left{
+	width: 300px;
+	height: 48px;
+	float: left;
+	margin-top: 30.45px;
+}
+.longphoto .header .nav .right{
+	width:900px;
+	height: 44px;
+	float: left;
+	margin-top: 36.5px;
+}
+.longphoto .header .nav .right .con{
+	width: 496px;
+	height: 44px;
+	float: right;
+}
+.longphoto .header .nav .right .con a{
+	width: 116px;
+	height: 44px;
+	line-height: 44px;
+	display: block;
+	float: right;
+	text-align: center;
+}
+.longphoto .header .nav .right .con a span{
+	font-size: 16px;
+	color: #141214;
+}
+.longphoto .header .nav .right .con a:nth-of-type(1) span{
+	color: #A50C00;
+	border-bottom: 2px solid #A50C00;
+	padding-bottom: 10px; 
+}
+.longphoto .middle{
+	width: 100%;
+	height: 152.72px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 117px;
+}
+.longphoto .middle .kawa{
+	width: 569px;
+	height: 59px;
+	margin: 0 auto;
+}
+.longphoto .shou{
+	width: 100%;
+	height: 36px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	position: absolute;
+	bottom:188.13px;
+	left: 0;
+}
+.longphoto .shou .con{
+	width: 192px;
+	height: 24px;
+}
+.longphoto .shou .con .box{
+	width: 40px;
+	height: 24px;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.longphoto .shou .con .box1{
+	width: 96px;
+	height: 24px;
+	margin-left: 3px;
+	margin-right: 3px;
+	float: left;
+}
+.longphoto .shou .con .box1 span{
+	font-size: 24px;
+    color: rgb(171, 0, 8);
+    text-align: center;
+}
+.photo{
+	width: 100%;
+	height: 408.89px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.photo .con{
+	width: 50%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+.photo .con .box1{
+	width: 197.61px;
+	height: 60px;
+	margin: 0 auto;
+	margin-top: 81.03px;
+}
+.photo .con .box2{
+	width: 100%;
+	height: 142.84px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.photo .con .box2 .bigbox{
+	width: 406px;
+	height: 85px;
+
+}
+.photo .con .box2 .bigbox span{
+	font-size: 14px;
+	color: #99A6C4;
+}
+.photo .con .box3{
+	width: 128px;
+	height: 52px;
+	border: 2px solid #BF0303;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 48.92px;
+}
+.photo .con .box3 .bigbox{
+	width: 64px;
+	height: 28px;
+}
+.photo .con .box3 .bigbox span{
+	font-size: 16px;
+	color: #BF0303;
+}
+.shiyong{
+	width: 100%;
+	height:313.92px;
+	display: flex;
+	align-items: center;
+	background-color: #f9f9f9;
+}
+.shiyong .con{
+	width: 100%;
+	height: 193.92px;
+}
+.shiyong .con .top{
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+}
+.shiyong .con .top .box{
+	width: 135.95px;
+	height: 60px;
+}
+.shiyong .con .bottom{
+	width: 100%;
+	height: 152.67px;
+	display: flex;
+	justify-content: space-between;
+}
+.shiyong .con .bottom .son{
+	width: 246.39px;
+	height: 120.67px;
+}
+.shiyong .con .bottom .son .grandson{
+	width: 100%;
+	height: 83.8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.shiyong .con .bottom .son .zi{
+	width: 100%;
+	height: 24px;
+	margin-top: 6px;
+	text-align: center;
+	line-height: 24px;
+}
+.shiyong .con .bottom .son .zi span{
+	font-size: 14px;
+	color: #333;
+}
+.zhenqing{
+	width: 100%;
+	height: 257.82px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.zhenqing .con{
+	width: 323px;
+	height: 171px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.zhenqing .con .son1{
+	width: 100%;
+	height: 18px;
+	position: absolute;
+	top: 32px;
+	left: 14px;
+}
+.zhenqing .con .son1 span{
+	font-size: 16px;
+	color: #fff;
+}
+.zhenqing .con .son2{
+	width: 78px;
+	height: 31px;
+	box-sizing: border-box;
+	border: 1px solid white;
+	position: absolute;
+	bottom: 27px;
+	left: 14px;
+}
+.zhenqing .con .son2 .box{
+	width: 78px;
+	height: 31px;
+	margin: 3px 10px;
+}
+.zhenqing .con .son2 .box span{
+	font-size: 14px;
+	color: white;
+}
+.biao{
+	width: 100%;
+	height: 24px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.biao .box{
+	width: 96px;
+	height: 24px;
+	margin: 0 auto;
+}
+.biao .box span{
+	font-size: 24px;
+	color: #000;
+}
+.an1{
+	width: 100%;
+	height: 243.72px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+.an1 .con{
+	width: 311.75px;
+	height: 243.72px;
+}
+.an1 .con .son1{
+	width: 315.56px;
+	height: 177.13px;
+}
+.an1 .con .son2{
+	width: 315.56px;
+	height: 45px;
+	margin-top: 10px;
+	text-align: center;
+}
+.an1 .con .son2 span{
+	width: 16px;
+	color: black;
+}
