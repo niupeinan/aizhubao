@@ -2,7 +2,7 @@
 * @Author: 牛培楠
 * @Date:   2018-07-15 12:38:08
 * @Last Modified by:   牛培楠
-* @Last Modified time: 2018-07-17 23:56:27
+* @Last Modified time: 2018-07-19 17:19:36
 */
 *{
 	margin: 0;
@@ -247,11 +247,12 @@ body{
 	display: flex;
 	justify-content: center;
 }
-.jieshao .con .son1 .box .smallbox{
+.jieshao .con .son1 .box a{
+	display: block;
 	width: 64px;
 	height: 28px;
 }
-.jieshao .con .son1 .box .smallbox span{
+.jieshao .con .son1 .box a span{
 	font-size: 16px;
 	color: #BF0303;
 	line-height: 52px;

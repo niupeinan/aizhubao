@@ -2,7 +2,7 @@
 * @Author: 牛培楠
 * @Date:   2018-07-17 20:53:05
 * @Last Modified by:   牛培楠
-* @Last Modified time: 2018-07-18 00:01:55
+* @Last Modified time: 2018-07-19 18:37:38
 */
 *{
 	margin: 0;
@@ -18,6 +18,13 @@ img{
 body{
 	margin: 0;
 }
+.audio{
+	width: 100%;
+	height: 590.72px;
+	position:relative;
+	top: 0;
+	left: 0;
+}
 .audio video{
 	position: absolute;
 	right: 0;
@@ -28,20 +35,15 @@ body{
 	height: auto;
 	z-index: -99;
 }
-.audio{
-	width: 100%;
-	height: 523.16px;
-	position:relative;
-	top: 0;
-	left: 0;
-}
 .audio .header{
 	width: 100%;
 	height: 117px;
 	position: fixed;
+	z-index: 100;
 	top: 0;
 	left: 0;
 	background-color: rgba(255, 255, 255,0);
+	z-index: 100;
 }
 .audio .header .nav{
 	width: 1200px;
@@ -79,12 +81,15 @@ body{
 	font-size: 16px;
 	color: #141214;
 }
-.audio .header .nav .right .con a:nth-of-type(2) span{
+.audio .header .nav .right .con a:nth-child(1){
+	width: 148px;
+	height: 44px;
+}
+.audio .header .nav .right .con a:nth-of-type(4) span{
 	color: #A50C00;
 	border-bottom: 2px solid #A50C00;
 	padding-bottom: 10px; 
 }
-
 .audio .middle{
 	width: 100%;
 	height: 152.72px;
@@ -214,7 +219,8 @@ body{
 }
 .pinpaiwenhua .left{
 	width: 671px;
-	height: 432.91px;
+	height: 447.91px;
+	background-color: #f9f9f9;
 }
 .pinpaiwenhua .left .con1{
 	width: 100%;

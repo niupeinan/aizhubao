@@ -1,0 +1,121 @@
+/*
+* @Author: 牛培楠
+* @Date:   2018-07-19 18:30:05
+* @Last Modified by:   牛培楠
+* @Last Modified time: 2018-07-19 19:08:14
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+
+}
+.longphoto{
+	width: 100%;
+	height: 523.16px;
+	background: url('../img/header1.jpg');
+	position:relative;
+	top: 0;
+	left: 0;
+}
+.longphoto .header{
+	width: 100%;
+	height: 117px;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255,0);
+	z-index: 100;
+}
+.longphoto .header .nav{
+	width: 1200px;
+	height: 117px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.longphoto .header .nav .left{
+	width: 300px;
+	height: 48px;
+	float: left;
+	margin-top: 30.45px;
+}
+.longphoto .header .nav .right{
+	width:900px;
+	height: 44px;
+	float: left;
+	margin-top: 18.5px;
+}
+.longphoto .header .nav .right .con{
+	width: 496px;
+	height: 44px;
+	float: right;
+}
+.longphoto .header .nav .right .con a{
+	width: 116px;
+	height: 44px;
+	line-height: 44px;
+	display: block;
+	float: right;
+	text-align: center;
+}
+.longphoto .header .nav .right .con a span{
+	font-size: 16px;
+	color: #141214;
+}
+.longphoto .header .nav .right .con a:nth-child(1){
+	width: 148px;
+	height: 44px;
+}
+.longphoto .header .nav .right .con a:nth-of-type(4) span{
+	color: #A50C00;
+	border-bottom: 2px solid #A50C00;
+	padding-bottom: 10px; 
+}
+/* .longphoto .box{
+	width: 100%;
+	height: 117px;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	left:0;
+
+} */
+.longphoto .middle{
+	width: 100%;
+	height: 165.08px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	margin-bottom: 14.47px;
+	position: absolute;
+	bottom: 0;
+	top:0 px;
+	left: 0;
+	right: 0;
+	margin:255.55px auto;
+}
+.longphoto .middle .kawa{
+	width: 236px;
+	height: 58px;
+}
+.longphoto .shou{
+	width: 100%;
+	height: 241.08px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.longphoto .shou .con{
+	width: 590px;
+	height: 24px;
+}

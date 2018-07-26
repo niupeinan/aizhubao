@@ -2,7 +2,7 @@
 * @Author: 牛培楠
 * @Date:   2018-07-18 15:07:55
 * @Last Modified by:   牛培楠
-* @Last Modified time: 2018-07-18 23:39:03
+* @Last Modified time: 2018-07-19 17:07:48
 */
 *{
 	margin: 0;
@@ -290,7 +290,7 @@ img{
 .an1{
 	width: 100%;
 	height: 243.72px;
-	margin-top: 15px;
+	margin-top: 23px;
 	margin-bottom: 5px;
 	display: flex;
 	justify-content: space-between;
@@ -312,4 +312,197 @@ img{
 .an1 .con .son2 span{
 	width: 16px;
 	color: black;
+}
+.an2{
+	width: 100%;
+	height: 243.72px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+.an2 .con{
+	width: 311.75px;
+	height: 243.72px;
+}
+.an2 .con .son1{
+	width: 315.56px;
+	height: 177.13px;
+}
+.an2 .con .son2{
+	width: 315.56px;
+	height: 45px;
+	margin-top: 10px;
+	text-align: center;
+}
+.an2 .con .son2 span{
+	width: 16px;
+	color: black;
+}
+.an3{
+	width: 100%;
+	height: 243.72px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+.an3 .con{
+	width: 311.75px;
+	height: 243.72px;
+}
+.an3 .con .son1{
+	width: 315.56px;
+	height: 177.13px;
+}
+.an3 .con .son2{
+	width: 315.56px;
+	height: 45px;
+	margin-top: 10px;
+	text-align: center;
+}
+.an3 .con .son2 span{
+	width: 16px;
+	color: black;
+}
+.an4{
+	width: 100%;
+	height: 243.72px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+.an4 .con{
+	width: 311.75px;
+	height: 243.72px;
+	float: left;
+	margin-right: 33px;
+}
+.an4 .con .son1{
+	width: 315.56px;
+	height: 177.13px;
+}
+.an4 .con .son2{
+	width: 315.56px;
+	height: 45px;
+	margin-top: 10px;
+	text-align: center;
+}
+.an4 .con .son2 span{
+	width: 16px;
+	color: black;
+}
+.footer{
+	width: 100%;
+	height: 380px;
+	background-color: #333333;
+}
+.footer .con{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.footer .con .top{
+	width: 1200px;
+	height: 311.38px;
+	display: flex;
+	align-items: center;
+}
+.footer .con .top .top-son{
+	width: 1200px;
+	height: 207.94px;
+}
+.footer .con .top .top-son .son1{
+	width: 483px;
+	height: 100%;
+	float: left;
+}
+.footer .con .top .top-son .son1 .lianxi{
+	width: 100%;
+	height: 27px;
+}
+.footer .con .top .top-son .son1 .lianxi span{
+	font-size: 18px;
+	color: #fff;
+}
+.footer .con .top .top-son .son1 .xinxi{
+	width: 100%;
+	height:137px;
+	margin-top: 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.footer .con .top .top-son .son1 .xinxi .xi{
+	width: 100%;
+	height: 21px;
+}
+.footer .con .top .top-son .son1 .xinxi .xi span{
+	font-size: 14px;
+	color: #fff;
+}
+.footer .con .top .top-son .son2{
+	width: 400px;
+	height: 100%;
+	float: left;
+}
+.footer .con .top .top-son .son2 .dao{
+	width: 100%;
+	height: 27px;
+}
+.footer .con .top .top-son .son2 .dao span{
+	font-size: 18px;
+	color: #fff;
+}
+.footer .con .top .top-son .son2 .wo{
+	width: 100%;
+	height:80px;
+	margin-top: 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.footer .con .top .top-son .son2 .wo .men{
+	width: 100%;
+	height: 21px;
+}
+.footer .con .top .top-son .son2 .wo .men span{
+	font-size: 14px;
+	color: #fff;
+}
+.footer .con .top .top-son .son3{
+	width: 152px;
+	height: 100%;
+	float: left;
+}
+.footer .con .top .top-son .son3 .ma{
+	width: 152px;
+	height: 152px;
+}
+.footer .con .bottom{
+	width: 1200px;
+	height: 69.62px;
+}
+.footer .con .bottom .weizhi{
+	width: 1200px;
+	height: 20px;
+	margin-top: 5px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.footer .con .bottom .weizhi span{
+	font-size: 14px;
+	color: #999999;
+}
+.footer .con .bottom .zhi{
+	width: 1200px;
+	height: 20px;
+	margin-top: 10px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.footer .con .bottom .zhi span{
+	font-size: 14px;
+	color: #999999;
 }

@@ -2,7 +2,7 @@
 * @Author: 牛培楠
 * @Date:   2018-07-10 13:20:03
 * @Last Modified by:   牛培楠
-* @Last Modified time: 2018-07-18 15:18:41
+* @Last Modified time: 2018-07-23 22:35:44
 */
 *{
 	margin: 0;
@@ -73,10 +73,27 @@ img{
 	display: block;
 	float: right;
 	text-align: center;
+	position: relative;
 }
 .audio .header .nav .right .con a span{
 	font-size: 16px;
 	color: #141214;
+}
+.audio .header .nav .right .con a:hover{
+	opacity: 0;
+}
+.audio .header .nav .right .con a em{
+	display: block;
+	width: 116px;
+	height:44px;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.audio .header .nav .right .con a em:hover{
+	opacity: 1;
+	bottom: 0;
 }
 .audio .header .nav .right .con a:nth-child(1){
 	width: 148px;

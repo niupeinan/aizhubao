@@ -2,7 +2,7 @@
 * @Author: 牛培楠
 * @Date:   2018-07-15 14:23:54
 * @Last Modified by:   牛培楠
-* @Last Modified time: 2018-07-17 23:56:45
+* @Last Modified time: 2018-07-19 18:38:43
 */
 *{
 	margin: 0;
@@ -28,6 +28,7 @@ img{
 	width: 100%;
 	height: 117px;
 	position: fixed;
+	z-index: 100;
 	top: 0;
 	left: 0;
 	background-color: rgba(255, 255, 255,0);
@@ -50,7 +51,7 @@ img{
 	width:900px;
 	height: 44px;
 	float: left;
-	margin-top: 36.5px;
+	margin-top: 18.5px;
 }
 .longphoto .header .nav .right .con{
 	width: 496px;
@@ -69,7 +70,11 @@ img{
 	font-size: 16px;
 	color: #141214;
 }
-.longphoto .header .nav .right .con a:nth-of-type(3) span{
+.longphoto .header .nav .right .con a:nth-child(1){
+	width: 148px;
+	height: 44px;
+}
+.longphoto .header .nav .right .con a:nth-of-type(4) span{
 	color: #A50C00;
 	border-bottom: 2px solid #A50C00;
 	padding-bottom: 10px; 
