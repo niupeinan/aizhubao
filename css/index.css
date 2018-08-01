@@ -2,7 +2,7 @@
 * @Author: 牛培楠
 * @Date:   2018-07-10 13:20:03
 * @Last Modified by:   牛培楠
-* @Last Modified time: 2018-07-26 23:43:50
+* @Last Modified time: 2018-08-02 00:03:05
 */
 *{
 	margin: 0;
@@ -34,26 +34,24 @@ img{
 }
 .audio .header{
 	width: 100%;
-	height: 117px;
+	height: 80px;
 	position: fixed;
-	z-index: 100;
-	top: 0;
+	top:0;
 	left: 0;
-	background-color: rgba(255, 255, 255,0);
-	z-index: 100;
+	z-index: 100; 
+	/* background-color: rgba(255, 255, 255,0); */
 }
 .audio .header .nav{
 	width: 1200px;
-	height: 117px;
+	height: 80px;
 	margin: 0 auto;
-	overflow: hidden;
 }
 
 .audio .header .nav .left{
 	width: 300px;
 	height: 48px;
 	float: left;
-	margin-top: 30.45px;
+	margin-top: 20.45px;
 }
 .audio .header .nav .right{
 	width:900px;
@@ -75,6 +73,43 @@ img{
 	float: right;
 	text-align: center;
 	position: relative;
+}
+.audio .header .nav .right .con a .pinpai{
+	width: 144px;
+	height: 144px;
+	position: absolute;
+	bottom: -144px;
+	left: -15px;
+	background: #fff;
+	z-index: 100;
+	display: none;
+}
+.audio .header .nav .right .con a .pinpai span{
+	display: block;
+	width: 144px;
+	height: 36px;
+	font-size: 14px;
+	text-align: center;
+	line-height:36px;
+	color: #676767;
+}
+.audio .header .nav .right .con a .chanpin{
+	width: 144px;
+	height: 252px;
+	position: absolute;
+	top: 44px;
+	left: -15px;
+	background: #fff;
+	display: none;
+}
+.audio .header .nav .right .con a .chanpin span{
+	display: block;
+	width: 144px;
+	height: 36px;
+	font-size: 14px;
+	text-align: center;
+	line-height:36px;
+	color: #676767;
 }
 .audio .header .nav .right .con a span{
 	font-size: 16px;
@@ -121,6 +156,7 @@ img{
 	top: 0;
 	left: 0;
 	margin-top: 117px;
+	z-index: 5;
 }
 .audio .middle .kawa{
 	width: 569px;
@@ -137,6 +173,7 @@ img{
 	top: 0;
 	left: 0;
 	margin-top: 269.72px;
+	z-index: 5;
 }
 .audio .shou .con{
 	width: 489px;
@@ -152,6 +189,7 @@ img{
 	top: 0;
 	left: 0;
 	margin-top: 344.72px;
+	z-index: 5;
 }
 .audio .kan .con{
 	width: 180px;

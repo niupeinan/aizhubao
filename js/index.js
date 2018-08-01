@@ -1,19 +1,30 @@
-/*
-* @Author: 牛培楠
-* @Date:   2018-07-17 14:57:17
-* @Last Modified by:   牛培楠
-* @Last Modified time: 2018-07-23 22:15:51
-*/
-// window.onload=function(){
-// 	let audio=document.getElementsByClassName("audio")[0];
-// 	let header=audio.getElementsByClassName("header")[0];
-// 	let lis=header.getElementsByTagName("a")[0];
-// 	let span=header.getElementsByTagName("span")[0];
-// 	console.log(audio,header,lis,span);
-// 	lis.onmouseenter=function(){
-// 		span.innerText="HOME";
-// 	}
-// 	lis.onmouseleave=function(){
-// 		span.innerText="首页";
-// 	}
-// }
+window.onload=function(){
+	let header=document.querySelector(".header");
+	let a=header.querySelectorAll(".right a")
+	console.log(a)
+	let pinpai=header.querySelector(".right a .pinpai");
+	let chanpin=header.querySelector(".right a .chanpin");
+	a[1].onmouseenter=function(){
+		pinpai.style.display="block";
+	}
+	a[1].onmouseleave=function(){
+		pinpai.style.display="none";
+	}
+	a[2].onmouseenter=function(){
+		chanpin.style.display="block";
+	}
+	a[2].onmouseleave=function(){
+		chanpin.style.display="none";
+	}
+	window.onscroll=function(){
+		let he=document.body.scrollTop || document.documentElement.scrollTop;
+		console.log(he)
+		if(he>=24){
+			header.style.background="#fff";
+		}
+		else{
+			header.style.background="rgba(255, 255, 255,0)";
+		}
+	}	
+	
+}
