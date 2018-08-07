@@ -2,7 +2,7 @@
 * @Author: 牛培楠
 * @Date:   2018-07-10 13:20:03
 * @Last Modified by:   牛培楠
-* @Last Modified time: 2018-08-02 00:03:05
+* @Last Modified time: 2018-08-02 16:15:35
 */
 *{
 	margin: 0;
@@ -39,7 +39,7 @@ img{
 	top:0;
 	left: 0;
 	z-index: 100; 
-	/* background-color: rgba(255, 255, 255,0); */
+	background-color: rgba(255, 255, 255,0);
 }
 .audio .header .nav{
 	width: 1200px;
@@ -73,6 +73,16 @@ img{
 	float: right;
 	text-align: center;
 	position: relative;
+	/*overflow: hidden;*/
+}
+.audio .header .nav .right .con a:nth-of-type(4)::after{
+	content: "";
+	width: 60px;
+	height: 1px;
+	background-color: #A50C00;
+	position: absolute;
+	top: 43px;
+	left: 40px;
 }
 .audio .header .nav .right .con a .pinpai{
 	width: 144px;
@@ -115,22 +125,38 @@ img{
 	font-size: 16px;
 	color: #141214;
 }
-/* .audio .header .nav .right .con a:hover{
-	opacity: 0;
-} */
-/* .audio .header .nav .right .con a em{
+.audio .header .nav .right .con a:nth-child(4) span{
 	display: block;
-	width: 116px;
-	height:44px;
-	opacity: 0;
+	width: 144px;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	font-size: 16px;
+	color: #141214;
+	transition: all 0.5s;
 	position: absolute;
-	top: 0;
 	left: 0;
-} */
-/* .audio .header .nav .right .con a em:hover{
-	opacity: 1;
-	bottom: 0;
-} */
+	top: 0;
+}
+.audio .header .nav .right .con a em{
+	display: block;
+	width: 144px;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	font-size: 16px;
+	color: #141214;
+	position: absolute;
+	left: 0;
+	top: 44px;
+	display: none;
+}
+/*.audio .header .nav .right .con a:nth-of-type(4):hover span{
+	top: -44px;
+}
+.audio .header .nav .right .con a:nth-of-type(4):hover em{
+	top: 0;
+}*/
 .audio .header .nav .right .con a:nth-child(1){
 	width: 148px;
 	height: 44px;
@@ -142,10 +168,7 @@ img{
 }
 .audio .header .nav .right .con a:nth-of-type(4) span{
 	color: #A50C00;
-	border-bottom: 2px solid #A50C00;
-	padding-bottom: 10px; 
 }
-
 .audio .middle{
 	width: 100%;
 	height: 152.72px;
