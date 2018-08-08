@@ -6,32 +6,23 @@ window.onload = function(){
 	let em = header.querySelector(".right a em");
 	let span = document.querySelectorAll("#span");
 	a[1].onmouseenter = function(){
-		pinpai.style.display = "block";
+		pinpai.style.height = "144px";
+		pinpai.style.background = "#fff";
 	}
 	a[1].onmouseleave = function(){
-		pinpai.style.display = "none";
+		pinpai.style.height = 0;
+		pinpai.style.background = "";
 	}
 	a[2].onmouseenter = function(){
-		chanpin.style.display = "block";
+		chanpin.style.height = "252px";
+		pinpai.style.background = "#fff";
 	}
 	a[2].onmouseleave = function(){
-		chanpin.style.display = "none";
+		chanpin.style.height = "0px";
+		pinpai.style.background = "";
 	}
-	// a[3].onmouseenter = function(){
-	// 	span.style.top = 0;
-	// 	span.style.display = "none";
-	// 	em.style.top = "44px"
-	// 	em.style.display = "block";
-	// }
-	// a[3].onmouseleave = function(){
-	// 	span.style.display = "none";
-	// 	span.style.top = "-44px";
-	// 	em.style.top = 0;
-	// 	em.style.display = "none";
-	// }
 	window.onscroll = function(){
 		let he = document.body.scrollTop || document.documentElement.scrollTop;
-		console.log(he)
 		if(he >= 24){
 			header.style.background = "#fff";
 		}

@@ -76,7 +76,18 @@ body{
 	float: right;
 	text-align: center;
 	position: relative;
-	/*overflow: hidden;*/
+}
+.audio .header .nav .right .con a span{
+	opacity:1;
+}
+.audio .header .nav .right .con a:hover span{
+	opacity:0;
+}
+.audio .header .nav .right .con a em{
+	opacity:0;
+}
+.audio .header .nav .right .con a:hover em{
+	opacity:1;
 }
 .audio .header .nav .right .con a:nth-of-type(2)::after{
 	content: "";
@@ -85,20 +96,29 @@ body{
 	background-color: #A50C00;
 	position: absolute;
 	top: 43px;
-	left: 30px;
+	left: 40px;
+}
+.audio .header .nav .right .con a:hover::after{
+	content: "";
+	width: 60px;
+	height: 1px;
+	background-color: #A50C00;
+	position: absolute;
+	top: 43px;
+	left: 40px;
 }
 .audio .header .nav .right .con a .pinpai{
 	width: 144px;
-	height: 144px;
+	height: 0;
 	position: absolute;
-	bottom: -144px;
-	left: -15px;
+	overflow: hidden;
+	left:-5px;
+	top: 44px;
+	z-index: 150;
+	transition: all 0.5s;
 	background: #fff;
-	z-index: 100;
-	display: none;
 }
-.audio .header .nav .right .con a .pinpai span{
-	display: block;
+.audio .header .nav .right .con a .pinpai p{
 	width: 144px;
 	height: 36px;
 	font-size: 14px;
@@ -108,15 +128,15 @@ body{
 }
 .audio .header .nav .right .con a .chanpin{
 	width: 144px;
-	height: 252px;
+	height: 0px;
 	position: absolute;
 	top: 44px;
-	left: -15px;
+	left: -5px;
 	background: #fff;
-	display: none;
+	overflow: hidden;
+	transition: all 0.5s;
 }
-.audio .header .nav .right .con a .chanpin span{
-	display: block;
+.audio .header .nav .right .con a .chanpin p{
 	width: 144px;
 	height: 36px;
 	font-size: 14px;
@@ -128,7 +148,7 @@ body{
 	font-size: 16px;
 	color: #141214;
 }
-.audio .header .nav .right .con a:nth-child(4) span{
+.audio .header .nav .right .con a span{
 	display: block;
 	width: 144px;
 	height: 44px;
@@ -144,22 +164,22 @@ body{
 .audio .header .nav .right .con a em{
 	display: block;
 	width: 144px;
-	height: 44px;
+	height: 0;
 	text-align: center;
 	line-height: 44px;
 	font-size: 16px;
-	color: #141214;
+	transition: all 0.5s;
 	position: absolute;
 	left: 0;
-	top: 44px;
-	display: none;
+	top: 0px;
+	color: #A50C00;
 }
-/*.audio .header .nav .right .con a:nth-of-type(4):hover span{
+.audio .header .nav .right .con a:hover span{
 	top: -44px;
 }
-.audio .header .nav .right .con a:nth-of-type(4):hover em{
+.audio .header .nav .right .con a:hover em{
 	top: 0;
-}*/
+}
 .audio .header .nav .right .con a:nth-child(1){
 	width: 148px;
 	height: 44px;
@@ -169,8 +189,17 @@ body{
 	top: 0;
 	left: -116px;
 }
-.audio .header .nav .right .con a:nth-of-type(2) .span{
+.audio .header .nav .right .con a:nth-of-type(2) span{
 	color: #A50C00;
+}
+.audio .header .nav .right .con a:hover span{
+	color:#A50C00;
+}
+.audio .header .nav .right .con a:hover .pinpai span{
+	color:#141214;
+}
+.audio .header .nav .right .con a:hover .chanpin span{
+	color:#141214;
 }
 .audio .middle{
 	width: 100%;
